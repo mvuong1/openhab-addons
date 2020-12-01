@@ -1104,7 +1104,7 @@ Number:Temperature Forecast1_TemperatureLow "Temperature Low [%.1f %unit%]" <tem
 Number Forecast1_Sky "Sky [%.0f]" <none> (gForecast1) { channel="ecobee:thermostat:account:729318833078:forecast1#sky" }
 String Forecast1_SkyText "Sky Text [%s]" <text> (gForecast1) { channel="ecobee:thermostat:account:729318833078:forecast1#skyText" }
 
-// Remote sensor S0
+// Thermostat internal sensor S0
 String S0_Id "Sensor Id [%s]" <text> (gThermostatSensor) { channel="ecobee:sensor:account:729318833078:ei-0:id" }
 String S0_Name "Sensor Name [%s]" <text> (gThermostatSensor) { channel="ecobee:sensor:account:729318833078:ei-0:name" }
 String S0_Type "Sensor Type [%s]" <text> (gThermostatSensor) { channel="ecobee:sensor:account:729318833078:ei-0:type" }
